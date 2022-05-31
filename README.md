@@ -19,7 +19,7 @@ python main.py --img_dir img_dir1 --img_lab imglab1.csv
 
 ### Model
 #### Model Architecture
-![overview](overview1.pdf)
+![overview](overview1.png)
 
 #### Model Performance
 The performance is available in paper
