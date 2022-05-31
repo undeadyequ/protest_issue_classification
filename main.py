@@ -42,7 +42,7 @@ def main(start_stage=4, end_stage=4):
     # start train/evaluation -> in protest-detection-violence-estimation project
 
     # Stage 4: Train
-    command = "python train.py --data_dir {} --batch_size 32 --lr 0.002 --print_freq 100 --epochs 100 --cuda".format(img_dir_traintest)
+    command = "python train_joint_fine_grained.py --data_dir {} --batch_size 32 --lr 0.002 --print_freq 100 --epochs 100 --cuda".format(img_dir_traintest)
     if start_stage <= 4 and end_stage >= 4:
         os.system(command)
 
