@@ -1,10 +1,3 @@
-"""
-created by: Donghyeon Won
-Modified codes from
-    http://pytorch.org/tutorials/beginner/data_loading_tutorial.html
-    https://github.com/pytorch/examples/tree/master/imagenet
-"""
-
 from __future__ import print_function
 import os
 import argparse
